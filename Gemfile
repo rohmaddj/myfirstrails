@@ -57,3 +57,13 @@ gem 'puma'
 
 gem 'devise'
 
+# Used for API docs
+gem 'grape'
+gem 'grape-entity'
+gem 'grape-active_model_serializers'
+gem 'grape-swagger-rails'
+gem 'rack-cors', :require => 'rack/cors'
+gem 'grape_logging'
+
+gem 'figaro'
+
